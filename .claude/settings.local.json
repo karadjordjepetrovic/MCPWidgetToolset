@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__unreal-mcp__describe_toolset",
+      "mcp__unreal-mcp__call_tool",
+      "Bash(python3 *)",
+      "Bash(command -v node python python3 jq)",
+      "Skill(update-config)",
+      "PowerShell(& \"C:\\\\Program Files\\\\Epic Games\\\\UE_5.8\\\\Engine\\\\Build\\\\BatchFiles\\\\Build.bat\" MCPTestEditor Win64 Development -Project=\"C:\\\\Users\\\\karad\\\\OneDrive\\\\Documents\\\\Unreal Projects\\\\MCPTest\\\\MCPTest.uproject\" -WaitMutex)",
+      "PowerShell(Start-Process -FilePath \"C:\\\\Program Files\\\\Epic Games\\\\UE_5.8\\\\Engine\\\\Binaries\\\\Win64\\\\UnrealEditor.exe\" -ArgumentList '\"C:\\\\Users\\\\karad\\\\OneDrive\\\\Documents\\\\Unreal Projects\\\\MCPTest\\\\MCPTest.uproject\"')",
+      "mcp__unreal-mcp__list_toolsets"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "unreal-mcp"
+  ]
+}

@@ -1,0 +1,26 @@
+# Unreal Engine generated/regenerated folders — never commit these
+Binaries/
+Intermediate/
+DerivedDataCache/
+Saved/
+.vs/
+.vscode/
+*.VC.db
+*.VC.opendb
+
+# Build artifacts
+Build/
+Builds/
+
+# Platform/IDE junk
+.idea/
+*.sln.docstates
+
+# Visual Studio solution files Unreal regenerates — keep these untracked
+# so they don't produce noisy diffs; regenerate via "Generate Visual Studio project files"
+*.sln
+*.slnx
+
+# OS junk
+.DS_Store
+Thumbs.db
